@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pesanan"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lengkapi Alamat Anda"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textAlignment="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="Nama"
+            android:layout_marginTop="20dp" />
+
+        <EditText
+            android:id="@+id/namaPemesan"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="Alamat"
+            android:layout_marginTop="20dp" />
+
+        <EditText
+            android:id="@+id/alamatPemesan"
+            android:layout_width="350dp"
+            android:layout_height="250dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/totalHarga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="20dp"
+            android:textAlignment="textEnd"/>
+
+        <Button
+            android:id="@+id/pesan"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="pesan"/>
+    </LinearLayout>
+
+</LinearLayout>

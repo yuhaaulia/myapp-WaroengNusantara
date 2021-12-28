@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".landing"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Terima Kasih"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textAlignment="center"
+        android:textSize="50dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="Pesanan anda senilai"
+            android:textSize="20dp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/hargaLanding"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="harga"
+            android:textAlignment="center"
+            android:textSize="45dp"/>
+
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="Sedang kami proses, mohon untuk bersabar"
+            android:textSize="20dp"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+
+</LinearLayout>
